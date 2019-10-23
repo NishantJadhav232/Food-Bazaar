@@ -1,0 +1,31 @@
+
+table{
+	margin-top: 10px;
+	width: 800px;
+}
+.fruit_cmp
+{
+	padding: 50px;
+}
+#market {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#market td, #market th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#market tr:nth-child(even){background-color: #f2f2f2;}
+
+#market tr:hover {background-color: #ddd;}
+
+#market th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
